@@ -9,4 +9,4 @@ if (!process.env.BOT_TOKEN) {
 
 export const bot = new Telegraf(process.env.BOT_TOKEN);
 
-bot.start((ctx) => ctx.reply('Привет! Я бот! '));
+bot.start((ctx) => ctx.reply('Привет! Я бот! И точка! '));
